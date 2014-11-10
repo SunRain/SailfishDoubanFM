@@ -1,10 +1,10 @@
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
-Icon=SailfishDoubanFm
-Exec=SailfishDoubanFm
-Name=SailfishDoubanFm
+Icon=harbour-sailfishdoubanfm
+Exec=harbour-sailfishdoubanfm
+Name=DoubanFM
 # translation example:
 # your app name in German locale (de)
-Name[de]=SailfishDoubanFm
-
+Name[de]=DoubanFM
+Name[zh_CN]=豆瓣FM

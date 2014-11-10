@@ -4,22 +4,14 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>About Sailfish DoubanFM</source>
-        <translation type="obsolete">关于DoubanFM</translation>
-    </message>
-    <message>
-        <source>Sailfish DoubanFM</source>
-        <translation type="obsolete">DoubanFM</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/AboutPage.qml" line="16"/>
         <source>About DoubanFM</source>
-        <translation></translation>
+        <translation>关于豆瓣FM</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="38"/>
         <source>DoubanFM</source>
-        <translation></translation>
+        <translation>豆瓣FM</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="52"/>

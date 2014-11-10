@@ -10,19 +10,15 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = SailfishDoubanFm
+TARGET = harbour-sailfishdoubanfm
 
 CONFIG += sailfishapp
 
 SOURCES += src/SailfishDoubanFm.cpp
 
-OTHER_FILES += qml/SailfishDoubanFm.qml \
+OTHER_FILES += \
     qml/cover/CoverPage.qml \
-    rpm/SailfishDoubanFm.changes.in \
-    rpm/SailfishDoubanFm.spec \
-    rpm/SailfishDoubanFm.yaml \
     translations/*.ts \
-    SailfishDoubanFm.desktop \
     qml/js/jsonpath.js \
     qml/js/Utils.js \
     qml/graphics/ban.png \
@@ -38,11 +34,22 @@ OTHER_FILES += qml/SailfishDoubanFm.qml \
     qml/pages/Player.qml \
     qml/pages/Song.qml \
     qml/pages/User.qml \
-    qml/pages/AboutPage.qml
+    qml/pages/AboutPage.qml \
+    qml/harbour-sailfishdoubanfm.qml \
+    rpm/harbour-sailfishdoubanfm.spec \
+    rpm/harbour-sailfishdoubanfm.changes.in \
+    rpm/harbour-sailfishdoubanfm.yaml \
+    harbour-sailfishdoubanfm.desktop \
+    rpm/harbour-sailfishdoubanfm.yaml \
+    rpm/harbour-sailfishdoubanfm.spec \
+    rpm/harbour-sailfishdoubanfm.changes.in \
+    qml/harbour-sailfishdoubanfm.qml \
+    translations/harbour-sailfishdoubanfm.ts \
+    translations/harbour-sailfishdoubanfm-zh_CN.ts
 
 # to disable building translations every time, comment out the
 # following CONFIG line
 CONFIG += sailfishapp_i18n
-TRANSLATIONS += translations/SailfishDoubanFm-de.ts \
-                translations/SailfishDoubanFm-zh_CN.ts
+TRANSLATIONS += translations/harbour-sailfishdoubanfm-de.ts \
+                translations/harbour-sailfishdoubanfm-zh_CN.ts
 
