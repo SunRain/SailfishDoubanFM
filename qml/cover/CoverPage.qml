@@ -42,7 +42,10 @@ CoverBackground {
 //    }
         Image {
             id: imageAlbum
-            anchors.centerIn: parent
+            width: parent.width
+            height: parent.height
+            fillMode: Image.PreserveAspectFit
+            smooth: true
             
             source: song.picSource
             
